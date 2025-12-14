@@ -1,0 +1,5 @@
+pandas==2.3.3
+numpy==2.3.0
+matplotlib==3.10
+seaborn==v0.13
+notebook
