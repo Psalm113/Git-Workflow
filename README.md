@@ -1,7 +1,15 @@
 # Data Explorer — Titanic Dataset Analysis
 
 ## Objective  
-Explore, clean, and analyze the Titanic passenger dataset. Visualize insights using Pandas, NumPy, Matplotlib, and Seaborn.
+Gain proficiency with essential AI development tools: VS Code, virtual environments, Git/GitHub, and Jupyter Notebooks.
+
+## How to Run  
+Pull a copy of the url
+Go to the project directory e.g. git-workflow-main
+py -3.14 -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+code .
 
 ## Steps  
 1. Load the dataset (`titanic.csv`)  
@@ -16,13 +24,3 @@ Explore, clean, and analyze the Titanic passenger dataset. Visualize insights us
    - Survival rate by age group  
 6. Compute summary statistics and group-level analysis  
 7. Save cleaned dataset and charts for future use  
-
-## How to Run  
-```bash
-# install dependencies if not yet installed  
-python -m pip install pandas numpy matplotlib seaborn
-
-# start Jupyter Notebook  
-python -m notebook
-
-Open data_explorer.ipynb, run all cells, and explore the results.
